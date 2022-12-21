@@ -1,0 +1,102 @@
+.registration {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+#footer
+{
+    clear: both;
+    border: 1px groove #aaaaaa;
+    background: #f8f9fa;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    /*margin: 0;*/
+    margin-top: 25px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+table {
+    cellspacing: 50px;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border: 5px #000;
+}
+
+td, th {
+    padding: 5px;
+    border: 5px solid #000;
+}
+
+.startButton {
+    width: 300px;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.deleteButton {
+    font-weight: bold;
+    background-color: #dd0707;
+    color: black;
+}
+
+.passTestButton {
+    margin-top: 50px;
+    font-size: large;
+    width: 150px;
+}
+
+.loginWindow {
+    width: 400px;
+    background-color: #f8f9fa;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.like {
+    background-color: green;
+    width: 27px;
+    font-weight: bold;
+}
+
+.dislike {
+    background-color: #dd0707;
+    width: 27px;
+    font-weight: bold;
+}
+
+#parent_popup {
+    display: none;
+    background: #000;
+    height: 100%;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+#popup {
+    background-color: #93939b;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 40%;
+    color: #000000;
+    width: 300px;
+}
